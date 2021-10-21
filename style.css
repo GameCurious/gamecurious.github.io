@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fffefc;
+}
+
+.contenedor {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column nowrap;
+  min-height: 100vh;
+}
+
+/* - - - - - - - - INICIA HEADER - - - - - - - - - - - */
+
+header {
+  background: #003f63;
+  color: white;
+  padding: 1rem;
+  flex: 0 1 auto;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.menu ul {
+  list-style-type: none;
+}
+
+.menu li {
+  padding: 0 10px;
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+
+  .menu ul {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+}
+
+/* - - - - - - - - INICIA MAIN - - - - - - - - - - - */
+
+main {
+  flex: 1 1 auto;
+  background-image: url("https://cdn.wallpapersafari.com/24/29/GescWP.jpg");
+}
+
+.juegos-terminados {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.articulo {
+  width: 240px;
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 5px 5px;
+}
+
+.img-juego {
+  width: 100%;
+  border: 2px solid #feac22;
+}
+
+.info {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.articulo h3 {
+  width: 85%;
+  color: #ffffe5;
+  font-size: 16px;
+  background: #b8052a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+}
+
+.plataforma-img {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #c4052d;
+}
+
+.plataforma-img img {
+  width: 90%;
+}
+
+/* - - - - - - - - INICIA FOOTER - - - - - - - - - - - */
+
+footer {
+  background: #f2b138;
+  color: white;
+  padding: 1rem;
+  flex: 0 1 auto;
+}

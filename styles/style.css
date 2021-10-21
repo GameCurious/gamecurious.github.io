@@ -53,7 +53,7 @@ header {
 
 main {
   flex: 1 1 auto;
-  background-image: url("https://cdn.wallpapersafari.com/24/29/GescWP.jpg");
+  background-image: url("https://media.istockphoto.com/vectors/space-background-vector-id931901602?b=1&k=20&m=931901602&s=612x612&w=0&h=wNCZotR6nH3Z-5Y7Ji2Zk99MHrDZ2Eu6glmh7PaY1zc=");
 }
 
 .juegos-terminados {
@@ -63,28 +63,31 @@ main {
   align-items: center;
 }
 
-.articulo {
+.juego-terminado {
   width: 240px;
   display: flex;
-  flex-flow: column nowrap;
-  padding: 5px 5px;
+  flex-flow: column wrap;
 }
 
 .img-juego {
+  display: flex;
+}
+
+.img-juego img {
   width: 100%;
-  border: 2px solid #feac22;
+  border: 3px solid #feac22;
 }
 
 .info {
   display: flex;
   flex-flow: row nowrap;
+  background: #b8052a;
 }
 
-.articulo h3 {
+.info h3 {
   width: 85%;
   color: #ffffe5;
   font-size: 16px;
-  background: #b8052a;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -97,7 +100,6 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #c4052d;
 }
 
 .plataforma-img img {

@@ -54,19 +54,23 @@ header {
 main {
   flex: 1 1 auto;
   background-image: url("https://media.istockphoto.com/vectors/space-background-vector-id931901602?b=1&k=20&m=931901602&s=612x612&w=0&h=wNCZotR6nH3Z-5Y7Ji2Zk99MHrDZ2Eu6glmh7PaY1zc=");
+  display: flex;
 }
 
 .juegos-terminados {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
+  align-content: space-evenly;
+  height: auto;
 }
 
 .juego-terminado {
   width: 240px;
   display: flex;
   flex-flow: column wrap;
+  padding: 5px 5px;
 }
 
 .img-juego {

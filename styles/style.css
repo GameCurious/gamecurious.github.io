@@ -5,7 +5,25 @@
 }
 
 body {
-  background: #0e0e10;
+  background: white;
+}
+
+.contenedor-div {
+  background-color: #feac22;
+  display: inline-flex;
+}
+
+.uno {
+  background-color: darkcyan;
+}
+
+.dos {
+  background-color: grey;
+  display: flex;
+}
+
+.tres {
+  background-color: red;
 }
 
 .contenedor {
@@ -54,58 +72,47 @@ header {
 main {
   flex: 1 1 auto;
   background-image: url("https://media.istockphoto.com/vectors/space-background-vector-id931901602?b=1&k=20&m=931901602&s=612x612&w=0&h=wNCZotR6nH3Z-5Y7Ji2Zk99MHrDZ2Eu6glmh7PaY1zc=");
+  display: flex;
 }
 
 .juegos-terminados {
+  border: 2px solid pink;
+  flex: 1 1 auto;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content: space-between;
+  align-content: space-between;
 }
 
 .juego-terminado {
   width: 240px;
-  margin: 1px;
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
 }
 
 .img-juego {
-  display: flex;
-}
-
-.img-juego img {
-  width: 100%;
   border: 3px solid #feac22;
+  width: 100%;
 }
 
 .info {
-  display: flex;
-  flex-flow: row nowrap;
   background: #b8052a;
-}
-
-.info h3 {
-  width: 85%;
-  color: #ffffe5;
-  font-size: 16px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.titulo-juego {
+  width: 85%;
+  color: #ffffe5;
+  font-size: 16px;
   font-family: "Roboto Slab", serif;
 }
 
-.plataforma-img {
+.img-plataforma {
   width: 15%;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.plataforma-img img {
-  width: 90%;
 }
 
 /* - - - - - - - - INICIA FOOTER - - - - - - - - - - - */

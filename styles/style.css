@@ -64,6 +64,7 @@ main {
   flex-flow: row wrap;
   justify-content: space-between;
   align-content: space-between;
+  align-items: center;
 }
 
 .juego-terminado {

@@ -8,24 +8,6 @@ body {
   background: white;
 }
 
-.contenedor-div {
-  background-color: #feac22;
-  display: inline-flex;
-}
-
-.uno {
-  background-color: darkcyan;
-}
-
-.dos {
-  background-color: grey;
-  display: flex;
-}
-
-.tres {
-  background-color: red;
-}
-
 .contenedor {
   width: 90%;
   margin: 0 auto;
@@ -76,7 +58,7 @@ main {
 }
 
 .juegos-terminados {
-  border: 2px solid pink;
+  margin: 10px;
   flex: 1 1 auto;
   display: flex;
   flex-flow: row wrap;

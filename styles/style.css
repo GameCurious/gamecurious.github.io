@@ -65,6 +65,7 @@ main {
   justify-content: space-between;
   align-content: space-between;
   align-items: center;
+  gap: 5px 5px;
 }
 
 .juego-terminado {

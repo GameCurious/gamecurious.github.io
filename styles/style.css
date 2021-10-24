@@ -62,7 +62,7 @@ main {
   flex: 1 1 auto;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-content: space-between;
   align-items: center;
   gap: 5px 5px;

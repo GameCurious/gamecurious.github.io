@@ -6,6 +6,7 @@
 
 body {
   background: #f0f0f0;
+  background-image: url("https://media.istockphoto.com/vectors/space-background-vector-id931901602?b=1&k=20&m=931901602&s=612x612&w=0&h=wNCZotR6nH3Z-5Y7Ji2Zk99MHrDZ2Eu6glmh7PaY1zc=");
 }
 
 .contenedor {
@@ -36,7 +37,7 @@ header {
   padding: 0 10px;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
   header {
     display: flex;
     flex-flow: row nowrap;
@@ -52,8 +53,8 @@ header {
 /* - - - - - - - - INICIA MAIN - - - - - - - - - - - */
 
 main {
+  background-color: rgba(167, 167, 167, 0.3);
   flex: 1 1 auto;
-  background-image: url("https://media.istockphoto.com/vectors/space-background-vector-id931901602?b=1&k=20&m=931901602&s=612x612&w=0&h=wNCZotR6nH3Z-5Y7Ji2Zk99MHrDZ2Eu6glmh7PaY1zc=");
   display: flex;
 }
 
@@ -62,10 +63,10 @@ main {
   flex: 1 1 auto;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-content: space-between;
   align-items: center;
-  gap: 5px 5px;
+  gap: 30px 30px;
 }
 
 .juego-terminado {

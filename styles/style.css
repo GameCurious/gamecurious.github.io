@@ -5,7 +5,11 @@
 }
 
 body {
+<<<<<<< CodeSandbox
+  background: #f0f0f0;
+=======
   background: pink;
+>>>>>>> GitHub
 }
 
 .contenedor {
@@ -62,7 +66,11 @@ main {
   flex: 1 1 auto;
   display: flex;
   flex-flow: row wrap;
+<<<<<<< CodeSandbox
+  justify-content: space-between;
+=======
   justify-content: center;
+>>>>>>> GitHub
   align-content: space-between;
   align-items: center;
   gap: 5px 5px;

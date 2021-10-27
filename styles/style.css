@@ -20,36 +20,16 @@ body {
 /* - - - - - - - - INICIA HEADER - - - - - - - - - - - */
 
 header {
-  background: #003f63;
+  background: #ffffe5;
   color: white;
   padding: 1rem;
-  flex: 0 1 auto;
   display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
+  justify-content: center;
 }
 
-.menu ul {
-  list-style-type: none;
+.logo {
+  width: 45%;
 }
-
-.menu li {
-  padding: 0 10px;
-}
-
-@media screen and (min-width: 1280px) {
-  header {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-  }
-
-  .menu ul {
-    display: flex;
-    flex-flow: row nowrap;
-  }
-}
-
 /* - - - - - - - - INICIA MAIN - - - - - - - - - - - */
 
 main {
@@ -108,3 +88,19 @@ footer {
   padding: 1rem;
   flex: 0 1 auto;
 }
+
+/* - - - - - - - - QUERYS - - - - - - - - - - - 
+
+@media screen and (min-width: 1280px) {
+  header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+
+  .menu ul {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+}
+*/

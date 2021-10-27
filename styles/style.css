@@ -20,10 +20,10 @@ body {
 /* - - - - - - - - INICIA HEADER - - - - - - - - - - - */
 
 header {
-  width: 100%;
   background: #ffffe5;
   padding: 1rem;
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
 }
@@ -94,18 +94,20 @@ footer {
   flex: 0 1 auto;
 }
 
-/* - - - - - - - - QUERYS - - - - - - - - - - - 
+/* - - - - - - - - QUERYS - - - - - - - - - - - */
 
-@media screen and (min-width: 1280px) {
+@media (max-width: 600px) {
   header {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
+    justify-content: center;
   }
 
-  .menu ul {
-    display: flex;
-    flex-flow: row nowrap;
+  .logo {
+    width: 100%;
+    order: -1;
+  }
+
+  .icono {
+    width: 10%;
+    margin: 0 10px 0 0;
   }
 }
-*/

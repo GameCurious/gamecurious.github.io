@@ -5,8 +5,7 @@
 }
 
 body {
-  background: #f0f0f0;
-  background-image: url("https://media.istockphoto.com/vectors/space-background-vector-id931901602?b=1&k=20&m=931901602&s=612x612&w=0&h=wNCZotR6nH3Z-5Y7Ji2Zk99MHrDZ2Eu6glmh7PaY1zc=");
+  background-color: #000;
 }
 
 .contenedor {
@@ -20,7 +19,7 @@ body {
 /* - - - - - - - - INICIA HEADER - - - - - - - - - - - */
 
 header {
-  background: #ffffe5;
+  background: #2b293a;
   padding: 1rem;
   display: flex;
   flex-flow: row wrap;
@@ -48,20 +47,18 @@ header a {
 /* - - - - - - - - INICIA MAIN - - - - - - - - - - - */
 
 main {
-  background-color: rgba(167, 167, 167, 0.3);
+  background-color: #0f0b0c;
   flex: 1 1 auto;
   display: flex;
 }
 
 .juegos-terminados {
-  margin: 10px;
   flex: 1 1 auto;
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
-  align-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  gap: 30px 30px;
+  gap: 20px 20px;
 }
 
 .juego-terminado {
@@ -98,10 +95,14 @@ main {
 /* - - - - - - - - INICIA FOOTER - - - - - - - - - - - */
 
 footer {
-  background: #f2b138;
-  color: white;
+  background: #2b293a;
+  color: #ffffe5;
   padding: 1rem;
   flex: 0 1 auto;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  font-family: "Roboto Slab", serif;
 }
 
 /* - - - - - - - - QUERYS - - - - - - - - - - - */

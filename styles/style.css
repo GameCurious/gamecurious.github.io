@@ -5,16 +5,9 @@
 }
 
 body {
-  background-color: #000;
-}
-
-.bg {
-  width: 1280px;
-  height: 720px;
-  background-image: url("/../imagenes/bg.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: white;
+  display: flex;
+  flex-flow: column nowrap;
 }
 
 /* - - - - - - - - INICIA HEADER - - - - - - - - - - - */
@@ -47,24 +40,23 @@ header a {
 }
 
 /* - - - - - - - - INICIA MAIN - - - - - - - - - - - */
+main {
+  flex: 1 1 auto;
+  background-image: url("/../imagenes/bg.jpg");
+  background-color: #262626;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
 
 .contenedor {
   width: 90%;
-  margin: 0 auto;
   display: flex;
   flex-flow: column nowrap;
-  min-height: 100vh;
-}
-
-main {
-  background-color: #0f0b0c;
-  margin: 10px 0 10px 0;
-  flex: 1 1 auto;
-  display: flex;
 }
 
 .juegos-terminados {
-  margin: 10px 0 10px 0;
+  margin: 90px 0 20px 0;
   flex: 1 1 auto;
   display: flex;
   flex-flow: row wrap;

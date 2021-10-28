@@ -9,7 +9,7 @@ body {
 }
 
 .bg {
-  background: url("../imagenes/bg.jpg");
+  background: url("bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

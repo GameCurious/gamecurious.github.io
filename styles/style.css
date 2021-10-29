@@ -49,7 +49,7 @@ main {
 }
 
 .contenedor {
-  width: 1000px;
+  width: 990px;
 }
 
 .juegos-terminados {
@@ -136,7 +136,7 @@ footer {
 
 /* - - - - - - - - QUERYS 2 - - - - - - - - - - - */
 
-@media (max-width: 974px) {
+@media (max-width: 989px) {
   main {
     background-image: none;
   }

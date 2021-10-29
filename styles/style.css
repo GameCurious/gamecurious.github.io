@@ -58,13 +58,13 @@ main {
   flex-flow: row wrap;
   align-items: center;
   justify-content: space-evenly;
+  gap: 5px;
 }
 
 .juego-terminado {
   width: 240px;
   display: flex;
   flex-flow: row wrap;
-  gap: 5px;
 }
 
 .img-juego {

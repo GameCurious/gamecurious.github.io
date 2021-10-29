@@ -129,8 +129,12 @@ footer {
   }
 
   .juegos-terminados {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .juego-terminado {
+    width: 49%;
   }
 }
 
@@ -142,8 +146,7 @@ footer {
   }
 
   .juegos-terminados {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 }
-

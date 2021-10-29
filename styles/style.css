@@ -56,8 +56,8 @@ main {
   margin-top: 90px;
   display: flex;
   flex-flow: row wrap;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   gap: 5px;
 }
 
@@ -107,9 +107,23 @@ footer {
   text-align: center;
 }
 
+/* - - - - - - - - QUERYS 2 - - - - - - - - - - - */
+
+@media (max-width: 989px) {
+  main {
+    background-image: none;
+    background-color: white;
+  }
+
+  .juegos-terminados {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+
 /* - - - - - - - - QUERYS 1 - - - - - - - - - - - */
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   header {
     justify-content: center;
   }
@@ -126,27 +140,23 @@ footer {
 
   main {
     width: 100%;
+    background-color: #262626;
+  }
+
+  .contenedor {
+    width: 100%;
   }
 
   .juegos-terminados {
+    width: 100%;
     margin-top: 0px;
     margin-bottom: 0px;
+    gap: 0px;
+    justify-content: space-evenly;
+    align-items: center;
   }
 
   .juego-terminado {
-    width: 49%;
-  }
-}
-
-/* - - - - - - - - QUERYS 2 - - - - - - - - - - - */
-
-@media (max-width: 989px) {
-  main {
-    background-image: none;
-  }
-
-  .juegos-terminados {
-    margin-top: 0px;
-    margin-bottom: 0px;
+    width: 50%;
   }
 }

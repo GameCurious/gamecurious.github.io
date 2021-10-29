@@ -132,4 +132,8 @@ footer {
   main {
     background-image: none;
   }
+
+  .juegos-terminados {
+    margin-top: 10px;
+  }
 }

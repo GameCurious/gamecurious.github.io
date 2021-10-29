@@ -5,10 +5,7 @@
 }
 
 body {
-  background-color: white;
-  display: flex;
-  flex-flow: column nowrap;
-  height: 100vh;
+  background-color: black;
 }
 
 /* - - - - - - - - INICIA HEADER - - - - - - - - - - - */
@@ -41,29 +38,26 @@ header a {
 }
 
 /* - - - - - - - - INICIA MAIN - - - - - - - - - - - */
+
 main {
-  flex: 1 1 auto;
-  background-image: url("/../imagenes/bg.jpg");
+  background-image: url(/../imagenes/bg.jpg);
   background-color: #262626;
   background-repeat: no-repeat;
+  background-position: center top;
   display: flex;
   justify-content: center;
 }
 
 .contenedor {
-  width: 90%;
-  display: flex;
-  flex-flow: column nowrap;
+  width: 990px;
 }
 
 .juegos-terminados {
-  margin: 90px 0 20px 0;
-  flex: 1 1 auto;
+  margin-top: 90px;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
   align-items: center;
-  gap: 10px;
+  justify-content: space-evenly;
 }
 
 .juego-terminado {
@@ -109,6 +103,7 @@ footer {
   font-size: 16px;
   font-family: "Roboto Slab", serif;
   border: 3px solid #191822;
+  text-align: center;
 }
 
 /* - - - - - - - - QUERYS - - - - - - - - - - - */
@@ -126,5 +121,9 @@ footer {
   header a {
     width: 10%;
     margin: 0 10px 0 0;
+  }
+
+  main {
+    width: 100%;
   }
 }

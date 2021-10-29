@@ -127,6 +127,11 @@ footer {
   main {
     width: 100%;
   }
+
+  .juegos-terminados {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }
 
 @media (max-width: 974px) {

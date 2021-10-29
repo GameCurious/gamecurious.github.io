@@ -107,7 +107,7 @@ footer {
   text-align: center;
 }
 
-/* - - - - - - - - QUERYS - - - - - - - - - - - */
+/* - - - - - - - - QUERYS 1 - - - - - - - - - - - */
 
 @media (max-width: 600px) {
   header {
@@ -133,6 +133,8 @@ footer {
     margin-bottom: 10px;
   }
 }
+
+/* - - - - - - - - QUERYS 2 - - - - - - - - - - - */
 
 @media (max-width: 974px) {
   main {

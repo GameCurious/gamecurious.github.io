@@ -17,7 +17,7 @@ header {
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
-  border: 3px solid #191822;
+  border-bottom: 3px solid #191822;
 }
 
 header a {
@@ -103,7 +103,7 @@ footer {
   justify-content: center;
   font-size: 16px;
   font-family: "Roboto Slab", serif;
-  border: 3px solid #191822;
+  border-top: 3px solid #191822;
   text-align: center;
 }
 

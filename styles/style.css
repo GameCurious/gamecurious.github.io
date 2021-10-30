@@ -111,8 +111,8 @@ footer {
 
 @media (max-width: 989px) {
   main {
-    background-image: none;
-    background-color: white;
+    background-image: url("https://media.istockphoto.com/vectors/vector-seamless-pattern-background-icon-vector-id1170275727?k=20&m=1170275727&s=612x612&w=0&h=O7XbyzyOdJ8MghtpK2TIaFlms4mH-C_U6aKWskD0PnQ=");
+    background-repeat: repeat;
   }
 
   .juegos-terminados {
@@ -140,6 +140,7 @@ footer {
 
   main {
     width: 100%;
+    background-image: none;
     background-color: #262626;
   }
 

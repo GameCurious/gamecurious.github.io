@@ -29,7 +29,7 @@ header {
 }
 
 header a {
-  width: 6%;
+  width: 5%;
 }
 
 .icono {
@@ -42,7 +42,51 @@ header a {
 }
 
 .logo {
-  width: 50%;
+  width: 40%;
+}
+
+nav {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor-nav {
+  width: 1000px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contenedor-nav a {
+  color: #ffffe5;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Roboto Slab", serif;
+  padding: 0px;
+}
+
+.arte {
+  flex-grow: 1;
+  text-align: center;
+  border-bottom: 3px solid #f62f36;
+}
+
+.juegos {
+  flex-grow: 1;
+  text-align: center;
+  border-bottom: 3px solid #2684de;
+}
+
+.patrocinadores {
+  flex-grow: 1;
+  text-align: center;
+  border-bottom: 3px solid #47b32a;
+}
+
+.contacto {
+  flex-grow: 1;
+  text-align: center;
+  border-bottom: 3px solid #f136a1;
 }
 
 /* - - - - - - - - INICIA MAIN - - - - - - - -- - - - */

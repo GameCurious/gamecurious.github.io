@@ -165,18 +165,20 @@ footer {
 /* - - - - - - - - QUERYS 2 - - - - - - - - - - - */
 
 @media (max-width: 989px) {
-  main {
-    background-image: url("https://media.istockphoto.com/vectors/vector-seamless-pattern-background-icon-vector-id1170275727?k=20&m=1170275727&s=612x612&w=0&h=O7XbyzyOdJ8MghtpK2TIaFlms4mH-C_U6aKWskD0PnQ=");
-    background-repeat: repeat;
-  }
-
-  .juegos-terminados {
-    margin-top: 5px;
-    margin-bottom: 5px;
+  .juego-terminado {
+    width: 25%;
   }
 }
 
-/* - - - - - - - - QUERYS 1 - - - - - - - - - - - */
+/* - - - - - - - - QUERYS 3 - - - - - - - - - - - */
+
+@media (max-width: 700px) {
+  .juego-terminado {
+    width: 310px;
+  }
+}
+
+/* - - - - - - - - QUERYS 4 - - - - - - - - - - - */
 
 @media (max-width: 800px) {
   .banner {
@@ -193,12 +195,6 @@ footer {
   header a {
     width: 10%;
     margin: 0 10px 0 0;
-  }
-
-  main {
-    width: 100%;
-    background-image: none;
-    background-color: #262626;
   }
 
   .contenedor {

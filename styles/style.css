@@ -162,25 +162,17 @@ footer {
   text-align: center;
 }
 
-/* - - - - - - - - QUERYS 2 - - - - - - - - - - - */
+/* - - - - - - - - QUERYS TABLET - - - - - - - - - - - */
 
 @media (max-width: 989px) {
   .juego-terminado {
-    width: 25%;
+    width: 32%;
   }
 }
 
-/* - - - - - - - - QUERYS 3 - - - - - - - - - - - */
+/* - - - - - - - - QUERYS CELULAR - - - - - - - - - - - */
 
 @media (max-width: 700px) {
-  .juego-terminado {
-    width: 310px;
-  }
-}
-
-/* - - - - - - - - QUERYS 4 - - - - - - - - - - - */
-
-@media (max-width: 800px) {
   .top-nav {
     display: none;
   }
@@ -211,6 +203,6 @@ footer {
   }
 
   .juego-terminado {
-    width: 48%;
+    width: 49%;
   }
 }

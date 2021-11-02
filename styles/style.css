@@ -181,6 +181,10 @@ footer {
 /* - - - - - - - - QUERYS 4 - - - - - - - - - - - */
 
 @media (max-width: 800px) {
+  .top-nav {
+    display: none;
+  }
+
   .banner {
     width: 100%;
     justify-content: center;

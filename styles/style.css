@@ -171,14 +171,14 @@ footer {
 .redes-sociales {
   width: 25%;
   display: flex;
+  justify-content: space-between;
 }
 
 .redes-sociales img {
-  width: 80%;
+  width: 40px;
 }
 
 .redes-sociales a {
-  padding: 0 5px;
   display: flex;
   align-items: center;
 }
@@ -214,24 +214,19 @@ footer {
 
   .copyright {
     width: 100%;
-    font-size: 20px;
-    font-family: "Roboto Slab", serif;
   }
 
   .redes-sociales {
-    width: 50%;
+    width: 60%;
     margin-top: 10px;
     display: flex;
-  }
-
-  .redes-sociales img {
-    width: 70%;
+    justify-content: space-evenly;
   }
 }
 
 /* - - - - - - - - QUERYS CELULAR - - - - - - - - - - - */
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .top-nav {
     display: none;
   }
@@ -265,7 +260,7 @@ footer {
     width: 49%;
   }
 
-  .redes-sociales img {
-    width: 100%;
+  .redes-sociales {
+    width: 80%;
   }
 }

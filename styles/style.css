@@ -15,10 +15,10 @@ body {
 
 header {
   background: #2b293a;
-  padding: 1rem;
   display: flex;
-  justify-content: center;
-  border-bottom: 3px solid #191822;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
 }
 
 .banner {
@@ -45,14 +45,16 @@ header a {
   width: 40%;
 }
 
-nav {
+.top-nav {
   background-color: black;
+  border-top: 3px solid #191822;
+  width: 100%;
   display: flex;
   justify-content: center;
 }
 
 .contenedor-nav {
-  width: 1000px;
+  width: 1300px;
   display: flex;
   justify-content: space-around;
 }

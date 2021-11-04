@@ -226,7 +226,7 @@ footer {
 
 /* - - - - - - - - QUERYS CELULAR - - - - - - - - - - - */
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .top-nav {
     display: none;
   }
@@ -261,6 +261,6 @@ footer {
   }
 
   .redes-sociales {
-    width: 80%;
+    width: 70%;
   }
 }

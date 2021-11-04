@@ -14,24 +14,43 @@ body {
 /* - - - - - - - - INICIA HEADER - - - - - - - - - - - */
 
 header {
+  background: #2b293a;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .contenedor-banner {
+  border-bottom: 3px solid #191822;
   width: 100%;
-  background: #2b293a;
+  display: flex;
+  justify-content: center;
 }
 
 .banner {
-  width: 1400px;
+  padding: 5px 0;
+  width: 1300px;
+  height: 100px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
-.top-nav {
+.logo {
+  height: 100%;
+}
+
+.sub-logo {
+  height: 100%;
+}
+
+.fuente-banner {
+  font-family: "Lato", sans-serif;
+  font-size: 1.5em;
+  color: #db495e;
+}
+
+nav {
   background-color: black;
   width: 100%;
   display: flex;
@@ -81,6 +100,10 @@ header {
 
 .stream:not(:hover) {
   border-bottom: 2px solid #c64be2;
+}
+
+.activo {
+  background-color: rgb(17, 17, 17);
 }
 
 /* - - - - - - - - INICIA MAIN - - - - - - - -- - - - */

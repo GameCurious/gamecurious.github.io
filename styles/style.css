@@ -50,6 +50,17 @@ header {
   color: #db495e;
 }
 
+.search-box {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 3px;
+}
+
+.search-box input {
+  width: 400px;
+  padding: 2px 0px;
+}
+
 nav {
   background-color: black;
   width: 100%;

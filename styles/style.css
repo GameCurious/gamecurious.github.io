@@ -28,37 +28,52 @@ header {
 }
 
 .banner {
-  padding: 5px 0;
   width: 1300px;
   height: 100px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
-.logo {
-  height: 100%;
-}
-
+.logo,
 .sub-logo {
   height: 100%;
 }
 
-.fuente-banner {
-  font-family: "Lato", sans-serif;
-  font-size: 1.5em;
-  color: #db495e;
-}
-
-.search-box {
-  background-color: white;
-  padding: 1rem;
-  border-radius: 3px;
-}
-
-.search-box input {
+.search {
+  background-color: #fff;
   width: 400px;
-  padding: 2px 0px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  border: 3px solid #e4e4e4;
+}
+
+.search input {
+  padding: 0 0 0 20px;
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  font-size: 16px;
+}
+
+.search span {
+  background: #e4e4e4;
+  padding: 1rem;
+  font-size: 18px;
+  color: black;
+  cursor: pointer;
+  height: 100%;
+}
+
+.search span:hover {
+  content: "";
+  background: #ff003c;
+  border-radius: 5px;
+}
+
+.search span:after {
+  content: "";
 }
 
 nav {

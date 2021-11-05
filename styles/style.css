@@ -29,15 +29,15 @@ header {
 
 .banner {
   width: 1300px;
-  height: 100px;
   display: flex;
+  flex-flow: nowrap;
   justify-content: space-between;
   align-items: center;
 }
 
 .logo,
 .sub-logo {
-  height: 100%;
+  height: 100px;
 }
 
 .search {
@@ -99,7 +99,6 @@ nav {
   font-family: "Roboto Slab", serif;
   border-bottom: 2px solid #fff;
   align-self: center;
-  border: 1px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -237,6 +236,17 @@ footer {
 }
 /* - - - - - - - - QUERYS TABLET - - - - - - - - - - - */
 @media (max-width: 1000px) {
+  .banner {
+    padding: 1rem;
+    flex-flow: wrap;
+    justify-content: space-around;
+  }
+
+  .search {
+    width: 100%;
+    order: 3;
+  }
+
   .juego-terminado {
     width: 32%;
   }
@@ -261,6 +271,9 @@ footer {
 /* - - - - - - - - QUERYS CELULAR - - - - - - - - - - - */
 
 @media (max-width: 700px) {
+  .sub-logo {
+    display: none;
+  }
   .contenedor-nav a {
     font-size: 14px;
   }

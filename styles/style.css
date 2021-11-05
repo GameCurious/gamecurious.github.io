@@ -50,7 +50,6 @@ header {
 }
 
 .search input {
-  padding: 0 0 0 20px;
   border: none;
   outline: none;
   flex-grow: 1;

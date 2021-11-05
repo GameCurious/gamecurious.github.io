@@ -230,12 +230,7 @@ footer {
   align-items: center;
 }
 /* - - - - - - - - QUERYS TABLET - - - - - - - - - - - */
-
 @media (max-width: 1000px) {
-  .contenedor-nav a {
-    font-size: 15px;
-  }
-
   .juego-terminado {
     width: 32%;
   }

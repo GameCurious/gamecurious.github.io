@@ -11,17 +11,18 @@ body {
   min-height: 100vh;
 }
 
-/* - - - - - - - - INICIA HEADER - - - - - - - - - - - */
+/* - - - - - - - - H E A D E R - - - - - - - - - - - */
 
 header {
   background: #2b293a;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 .contenedor-banner {
-  border-bottom: 3px solid #191822;
+  border: 3px solid #191822;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -35,8 +36,7 @@ header {
   align-items: center;
 }
 
-.logo,
-.sub-logo {
+.banner img {
   height: 100px;
 }
 
@@ -104,11 +104,6 @@ nav {
   align-items: center;
 }
 
-.juegos img {
-  border: 2px solid orange;
-  width: 50%;
-}
-
 .contenedor-nav a:hover {
   background: linear-gradient(
     to bottom,
@@ -117,6 +112,7 @@ nav {
   );
   text-shadow: 0px 0px 8px #fff;
 }
+
 .arte:not(:hover) {
   border-bottom: 2px solid #f62f36;
 }
@@ -137,7 +133,7 @@ nav {
   background-color: rgb(44, 44, 44);
 }
 
-/* - - - - - - - - INICIA MAIN - - - - - - - -- - - - */
+/* - - - - - - - - M A I N - - - - - - - - - - - - */
 
 main {
   background-image: url(/../imagenes/bg.jpg);
@@ -194,7 +190,7 @@ main {
   width: 15%;
 }
 
-/* - - - - - - - - FOOTER - - - - - - - - */
+/* - - - - - - - - F O O T E R  - - - - - - - - */
 
 footer {
   background: #2b293a;

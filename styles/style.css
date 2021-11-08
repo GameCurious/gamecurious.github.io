@@ -153,7 +153,7 @@ main {
   width: 990px;
 }
 
-.juegos-terminados {
+#juegos-terminados {
   margin-top: 90px;
   display: flex;
   flex-flow: row wrap;
@@ -168,7 +168,7 @@ main {
   flex-flow: row wrap;
 }
 
-.img-juego {
+.juego-terminado img {
   border: 3px solid #feac22;
   width: 100%;
 }
@@ -182,14 +182,15 @@ main {
   text-align: center;
 }
 
-.titulo-juego {
+.info h3 {
   width: 85%;
   color: #ffffe5;
-  font-size: 16px;
+  font-size: 14px;
   font-family: "Roboto Slab", serif;
 }
 
-.img-plataforma {
+.info img {
+  border: none;
   width: 15%;
 }
 
@@ -286,11 +287,6 @@ footer {
 
   .contenedor {
     width: 100%;
-  }
-
-  .juegos-terminados {
-    width: 100%;
-    gap: 5px 0;
   }
 
   .juego-terminado {
